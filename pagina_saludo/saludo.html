@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11467101447"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-11467101447');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias</title>
+
+    <link rel="icon" href="../favicon/mym_favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon/mym_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../estilos/style.css">
+
+    <style>
+        .mensaje {
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .saludo_logotipo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .saludo_logotipo img {
+            width: 40%;
+            margin-bottom: 5px;
+        }
+
+        .saludo_textos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .saludo_titulo {
+            max-width: 600px;
+            margin-top: 10%;
+            font-size: 2.5rem;
+            font-weight: 800;
+            line-height: 2.5rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div id="inicio" class="mensaje">
+            <div class="saludo_logotipo">
+                <img src="../logotipo/logotipo.svg" alt="MyM Servicios Ambientales">
+                <div class="saludo_textos">
+                    <div class="nombre">MyM</div>
+                    <div class="subnombre">Servicios Ambientales</div>
+                </div>
+            </div>
+            <div class="saludo_titulo">
+                Muchas gracias por tu interés, pronto estaremos en contacto con vos!
+            </div>
+            <div class="boton">
+                <button class="btn_principal" onclick="abrirInicio()">Volver</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var scrollLinks = document.querySelectorAll('.scrollLink');
+
+            scrollLinks.forEach(function (link) {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    var targetId = this.getAttribute('href');
+                    var targetSection = document.querySelector(targetId);
+
+                    if (targetSection) {
+                        var targetOffset = targetSection.offsetTop;
+
+                        window.scrollTo({
+                            top: targetOffset,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

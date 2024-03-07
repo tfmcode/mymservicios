@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="229" height="172.091" viewBox="0 0 229 172.091">
+  <g id="logo_footer_mym" transform="translate(-847 -56.909)">
+    <g id="Grupo_79" data-name="Grupo 79" transform="translate(711.799 -46.916)">
+      <path id="Trazado_1" data-name="Trazado 1" d="M189.941,0,179.666.184V59.9l10.15,10.663V10.847l30.449,19.193,30.448-19.193V70.56L260.862,59.9V.184h-10.15L220.264,19.378Z" transform="translate(28.747 103.825)" fill="#f2884b"/>
+      <path id="Trazado_2" data-name="Trazado 2" d="M265.333,117.778l20.3,12.8,20.3-12.8V168.96l-10.149,10.663V134.838l-10.149,6.4-10.15-6.4v44.784L265.333,168.96Z" transform="translate(-36.621 13.956)" fill="#f2884b"/>
+    </g>
+    <g id="Grupo_80" data-name="Grupo 80" transform="translate(630 104)">
+      <text id="MyM" transform="translate(217 60)" fill="#f5f5f5" font-size="33" font-family="Elza-Narrow, Elza"><tspan x="-32.192" y="31">MYM</tspan></text>
+      <text id="Servicios_Ambientales" data-name="Servicios Ambientales" transform="translate(217 97)" fill="#f5f5f5" font-size="23" font-family="Elza-NarrowExtralight, Elza" font-weight="200"><tspan x="-91.758" y="22">Servicios Ambientales</tspan></text>
+    </g>
+  </g>
+</svg>
