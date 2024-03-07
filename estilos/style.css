@@ -17,6 +17,19 @@
     --gris-footer-inf: #1E1E1E;
 }
 
+.btn-whatsapp {
+    display: block;
+    width: 100px;
+    height: 70px;
+    color: #fff;
+    position: fixed;
+    bottom: 25px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+  }
+
 .no_visible {
     visibility: none;
 }
