@@ -202,10 +202,11 @@ img {
 
 .cabecera-derecha {
     flex: 2;
-    width: 100%;
+    max-width: 408px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px;
 }
 
 .cabecera-derecha img {
@@ -431,18 +432,20 @@ img {
     padding: 5%;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
-    background-color: var(--blanco);
+    background-color: #cdcdcd; /* Color de la carta */
     border-radius: var(--radio-1);
     box-shadow: 4px 2px 7px 0px rgba(0, 0, 0, 0.27);
     -webkit-box-shadow: 4px 2px 7px 0px rgba(0, 0, 0, 0.27);
     -moz-box-shadow: 4px 2px 7px 0px rgba(0, 0, 0, 0.27);
+    color: white; /* Color del texto para que sea legible sobre el fondo oscuro */
 }
 
 .descripcion_video {
     margin: 20px 50px 20px 50px;
     color: var(--gris-alto);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 }
 
@@ -454,6 +457,7 @@ img {
 
 .video-container video {
     max-width: 200px;
+    border-radius: 12px;
 
 }
 
