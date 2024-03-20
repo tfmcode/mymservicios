@@ -15,12 +15,18 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyM Desagotes Ambientales</title>
+    <title>MyM Destapaciones Sanitarias</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    
 
     <link rel="icon" href="favicon/mym_favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="favicon/mym_favicon.png" type="image/x-icon">
+    
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="estilos/style.css">
+<link rel="stylesheet" href="estilos/style.css">
     <style>
         .btn-whatsapp {
             display: block;
@@ -35,19 +41,51 @@
             z-index: 999;
         }
       
-.trabajo_img {
-    display: flex;
-    justify-content: start;
-    height: 366px;
-    width: 230px;
-}
+        .trabajo_img {
+        display: flex;
+        justify-content: start;
+        height: 366px;
+        width: 230px;
+        }
+        .icon-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .icon-box:hover {
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+      border: 1px solid #ff5500; /* Cambia el color del borde al hacer hover */
+    }
+
+    .icon-box img {
+      margin-bottom: 20px;
+    }
+
+    .icon-box h4 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      text-decoration: none; /* Quita el subrayado del título */
+      cursor: pointer; /* Cambia el cursor al pasar sobre el título */
+    }
+
+
+    .icon-box p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 0;
+      text-align: center; /* Centra el párrafo */
+    }
     </style>
 </head>
 
 <body>
 
     <div class="btn-whatsapp">
-        <a href="https://wa.me/+5491159313201?text=%C2%A1Hola%21%20Bienvenido%20a%20MYM%20Desagotes%20Ambientales%20"
+        <a href="https://wa.me/+5491159313201?text=%C2%A1Hola%21%20Bienvenido%20a%20MYM%20Destapaciones%20Sanitarias%20"
             target="_blank">
             <img src="img/btn_whatsapp.png" alt="">
         </a>
@@ -58,9 +96,9 @@
             <nav>
                 <ul class="menu">
                     <li><a href="#inicio" class="scrollLink">Inicio</a></li>
-                    <li><a href="#servicios" class="scrollLink">Servicios</a></li>
-                    <li><a href="#trabajos" class="scrollLink">Trabajos</a></li>
-                    <li><a href="#contacto" class="scrollLink">Contacto</a></li>
+                    <li><a href="./sections/servicios.html" >Servicios</a></li>
+                    <li><a href="./sections/trabajos.html">Trabajos</a></li>
+                    <li><a href="./sections/trabajos.html">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -70,11 +108,11 @@
                     <img src="logotipo/logotipo.svg" alt="MyM Servicios Ambientales">
                     <div class="datos_marca">
                         <div class="nombre">MyM</div>
-                        <div class="subnombre">Desagotes Ambientales</div>
+                        <div class="subnombre">Destapaciones sanitarias</div>
                     </div>
                 </div>
                 <div class="titulo">
-                    LLEVAMOS TRANQUILIDAD Y PROFESIONALISMO A TODOS NUESTROS CLIENTES
+                    Destapaciones de cañerías. <br> Despejando el camino hacia un flujo sin obstrucciones.
                 </div>
                 <div class="boton">
                     <button class="btn_principal" onclick="enviarMensaje()">Contacto</button>
@@ -84,7 +122,7 @@
                 <img style="border-radius: 26px;" src="img/Portada.JPG" alt="">
             </div>
         </div>
-        <div id="servicios" class="ventajas espacio_arriba_10">
+        <!-- <div id="servicios" class="ventajas espacio_arriba_10">
             <div class="ventajas_celda">
                 <div class="subnombre espacio_abajo_5">Ventajas competitivas</div>
                 <div class="titulo_segundo_nivel espacio_abajo_5">Descubre lo que nos diferencia</div>
@@ -127,7 +165,51 @@
                 <div class="parrafo espacio_derecho_10 texto_blanco">Contamos con certificado de Deposición Final para
                     residuos peligrosos.</div>
             </div>
-        </div>
+        </div> -->
+        <section class="services">
+            <div class="container">
+              <div style="display: flex; flex-direction: column; align-items: center; padding-bottom: 20px;">
+                <p class="text-primary" style="letter-spacing: 0.3em;">VENTAJAS COMPETITIVAS</p>
+                <h1>DESCUBRE LO QUE NOS DIFERENCIA</h1>
+                <p style="text-align: center;">En el ámbito de servicios ambientales, la eficacia y rapidez en destapaciones y gestión de residuos peligrosos son cruciales. La prontitud en la acción minimiza riesgos y protege el entorno. Nuestra empresa, con décadas de experiencia, garantiza una respuesta ágil y eficiente para preservar la seguridad ambiental.</p>
+              </div>
+              <div class="row">
+                <div class="cards" style="display: flex; justify-content: space-evenly; margin-top: 20px; margin-bottom: 20px;">
+                  <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box icon-box-blue">
+                      <div><img src="../assets/img/certificaciones.png" width="70"></div>
+                      <h4 class="title" style="text-align: center;">Con más de 30 años de experiencia</h4>
+                      <p class="description">Desde nuestro inicio como emprendimiento familiar en 1950, nos enorgullecemos de ser la tercera generación que responde con profesionalismo y soluciones precisas a las demandas del mercado.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box icon-box-green">
+                      <div><img src="../assets/img/expertos.png" width="70"></div>
+                      <h4 class="title" style="text-align: center;">Rápida respuesta</h4>
+                      <p class="description">Nuestros equipos de trabajo tienen una respuesta rápida en CABA de 1h30m y en provincia de Buenos Aires de 2h30m.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards" style="display: flex; justify-content: space-evenly; margin-top: 20px; margin-bottom: 20px;">
+                  <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up">
+                    <div class="icon-box icon-box-pink">
+                      <div><img src="../assets/img/seguridad.png" width="70"></div>
+                      <h4 class="title" style="text-align: center;">Trabajos de calidad</h4>
+                      <p class="description">Se garantiza el trabajo teniendo en cuenta el volumen de actividad que el cliente desarrolla. Nuestros trabajos se filman en todo su desarrollo para que el cliente corrobore la calidad del proceso y resultado final.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box icon-box-cyan">
+                      <div><img src="../assets/img/tecnologias.png" width="70"></div>
+                      <h4 class="title" style="text-align: center;">Equipos especializados</h4>
+                      <p class="description">Camiones atmosféricos, equipos de desobstrucción, máquinas hidrojet, y equipos de diagnóstico por imagen.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
         <div class="nuestros_servicios espacio_arriba_10">
 
 
@@ -173,6 +255,66 @@
                 </div>
             </div>
         </div>
+        <section class="services">
+            <div class="container">
+              <div style="display: flex; flex-direction: column; align-items: center; padding-bottom: 20px;">
+                <p class="text-primary" style="letter-spacing: 0.3em;">NUESTRO DIFERENCIAL</p>
+      
+                <h1 class="title1">PRESTAMOS SERVICIO PREMIUM</h1>
+                <p style="text-align: center;">Nuestra empresa de destapaciones ofrece un amplio espectro de servicios para asegurar el óptimo funcionamiento de sistemas de saneamiento. Realizamos destapaciones y desagotes con tecnología de diagnóstico por imágenes, garantizando eficacia y precisión. Además, gestionamos residuos peligrosos con certificación de deposición final y proporcionamos mantenimiento preventivo para prevenir obstrucciones en cañerías.</p>
+              </div>
+              <div class="row">
+                <div class="cards" style="display: flex;
+              justify-content: space-evenly; margin-top: 20px;
+          margin-bottom: 20px;">
+      
+      
+                  <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box icon-box-blue">
+                      <div><img src="../assets/img/certificaciones.png" width="70"></div>
+                      <h4 class="title"><a href="">Certificaciónes</a></h4>
+                      <p class="description">Extendemos certificado de disposición final de los líquidos retirados.</p>
+      
+                    </div>
+                  </div>
+      
+                  <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box icon-box-green">
+                      <div><img src="../assets/img/expertos.png" width="70"></div>
+                      <h4 class="title"><a href="">Expertos</a></h4>
+                      <p class="description">60 años de experiencia capacitándonos nos convierten en el equipo más capacitado
+                        del mercado.</p>
+      
+                    </div>
+                  </div>
+                </div>
+                <div class="cards" style="display: flex;
+             justify-content: space-evenly; margin-top: 20px;
+          margin-bottom: 20px;">
+      
+                  <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up">
+                    <div class="icon-box icon-box-pink">
+                      <div><img src="../assets/img/seguridad.png" width="70"></div>
+                      <h4 class="title"><a href="">Medidas de Seguridad</a></h4>
+                      <p class="description">Todos nuestros trabajadores cumplen estrictos protocolos de seguridad.</p>
+                    </div>
+                  </div>
+      
+                  <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box icon-box-cyan">
+                      <div><img src="../assets/img/tecnologias.png" width="70"></div>
+                      <h4 class="title"><a href="">Modernas Tecnologías</a></h4>
+                      <p class="description">Ponemos a disposición las más modernas tecnologías para brindar un servicio
+                        óptimo, seguro y eficiente.</p>
+      
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+      
+            </div>
+          </section><!-- End Services Section -->
         <div id="trabajos" class="nuestros_trabajos">
             <div class="logo_trabajos"> <img src="logotipo/logotipo.svg" alt=""></div>
             <div class="titulo_trabajos">Algunos de nuestros <br>trabajos</div>

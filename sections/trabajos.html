@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajos</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="#trabajos" class="scrollLink">Trabajos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="inicio" class="cabecera">
+            <div class="cabecera-izquierda">
+                <div class="logotipo">
+                    <img src="logotipo/logotipo.svg" alt="MyM Servicios Ambientales">
+                    <div class="datos_marca">
+                        <div class="nombre">MyM</div>
+                        <div class="subnombre">Destapaciones sanitarias</div>
+                    </div>
+                </div>
+                <div class="titulo">
+                    Destapaciones de cañerías. <br> Despejando el camino hacia un flujo sin obstrucciones.
+                </div>
+                <div class="boton">
+                    <button class="btn_principal" onclick="enviarMensaje()">Contacto</button>
+                </div>
+            </div>
+            <div class="cabecera-derecha">
+                <img style="border-radius: 26px;" src="img/Portada.JPG" alt="">
+            </div>
+        </div>
+    <div id="trabajos" class="nuestros_trabajos">
+        <div class="logo_trabajos"> <img src="logotipo/logotipo.svg" alt=""></div>
+        <div class="titulo_trabajos">Algunos de nuestros <br>trabajos</div>
+    </div>
+    <div class="seccion_videos">
+        <div class="contenedor_video">
+            <div class="descripcion_video">
+                Trabajo de desagote de cámara decantadora de grasa y destapación de cañerías.
+            </div>
+            <div class="video-container" onclick="reproducirVideo('1')">
+                <video id="1" preload="metadata">
+                    <source src="https://mymserviciosambientales.com.ar/videos/10_corto.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproduccion de videos
+                </video>
+            </div>
+        </div>
+        <div class="contenedor_video">
+            <div class="descripcion_video">Desagote de cámara de grasa con ingreso de personal para retirar
+                sedimentos
+                pesados.
+            </div>
+            <div class="video-container" onclick="reproducirVideo('2')">
+                <video id="2" preload="metadata">
+                    <source src="https://mymserviciosambientales.com.ar/videos/2.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproduccion de videos
+                </video>
+            </div>
+        </div>
+        <div class="contenedor_video">
+            <div class="descripcion_video">
+                Destapación pluvial en piso 24 con maquina con resorte de 22mm.
+            </div>
+            <div class="video-container" onclick="reproducirVideo('3')">
+                <video id="3" preload="metadata">
+                    <source src="https://mymserviciosambientales.com.ar/videos/3.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproduccion de videos
+                </video>
+            </div>
+        </div>
+        <div class="contenedor_video">
+            <div class="descripcion_video">
+                Restaurante Cosi Mi Piace. Destapación de guardaganados con conexión a línea cloacal. Máquinacon
+                resorte de 16mm.
+            </div>
+            <div class="video-container" onclick="reproducirVideo('4')">
+                <video id="4" preload="metadata">
+                    <source src="https://mymserviciosambientales.com.ar/videos/4.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproduccion de videos
+                </video>
+            </div>
+        </div>
+        <div class="contenedor_video" >
+            <div class="descripcion_video">
+                Destapación con máquina y resortes de 32mm. En cuartel 4 de Recoleta.
+            </div>
+            <div class="trabajo_img">
+                <img style="border-radius: 12px;" src="./img/Destapación con máquina y resortes de 32mm. En cuartel 4 de Recoleta5.JPG" alt="">
+            </div>
+        </div>
+        <div class="contenedor_video">
+            <div class="descripcion_video">
+                Desagote de cámara y destapación con Hidroyet de 250bar desde 2do piso hacia salida cloacal
+                principal.
+            </div>
+            <div class="trabajo_img">
+                <img style="border-radius: 12px;" src="./img/Desagote de cámara y destapación con Hidroyet de 250bar desde 2do piso hacia salida cloacal principal6.JPG" alt="">
+            </div>
+        </div>
+        <div class="contenedor_video">
+            <div class="descripcion_video">
+                Destapacion de guardaganado con resorte de 16mm con conexión a cámara decantadora.
+            </div>
+            <div class="video-container" onclick="reproducirVideo('7')">
+                <video id="7" preload="metadata">
+                    <source src="https://mymserviciosambientales.com.ar/videos/7.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproduccion de videos
+                </video>
+            </div>
+        </div>
+        <div class="contenedor_video">
+            <div class="descripcion_video">
+                Destapación por medio de hidrojet de 150bar en cañeria cloacal de 110mm. hasta troncal cloacal.
+            </div>
+            <div class="video-container" onclick="reproducirVideo('8')">
+                <video id="8" preload="metadata">
+                    <source src="https://mymserviciosambientales.com.ar/videos/8.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproduccion de videos
+                </video>
+            </div>
+        </div>
+        <div class="contenedor_video" style="display: flex; justify-content: space-between;">
+            <div class="descripcion_video">
+                Inspección por imágenes en aeropuerto de Ezeiza en cañerías de 4 pulgadas. Se detectó en la bajada
+                de la cañería una rotura en el codo de la misma.
+            </div>
+            <div class="video-container" onclick="reproducirVideo('9')">
+                <img src="./img/Inspección por imágenes en aeropuerto de Ezeiza en cañerías de 4 pulgadas. Se detectó en la bajada de la cañería una rotura en el codo de la misma9.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="clientes">
+        <div class="titulo_clientes">
+            Nuestros clientes
+        </div>
+        <div class="logo_clientes">
+            <img class="logoclientes" src="logotipos_clientes/Disco.svg" alt="Disco">
+            <img class="logoclientes" src="logotipos_clientes/Jumbo.svg" alt="Jumbo">
+            <img class="logoclientes" src="logotipos_clientes/Cencosud.svg" alt="Cencosud">
+            <img class="logoclientes" src="logotipos_clientes/Paty.svg" alt="Paty">
+            <img class="logoclientes" src="logotipos_clientes/SanCor.svg" alt="SanCor">
+            <img class="logoclientes" src="logotipos_clientes/Starbucks.svg" alt="Starbucks">
+            <img class="logoclientes" src="logotipos_clientes/Havanna.svg" alt="Havanna">
+            <img class="logoclientes" src="logotipos_clientes/Logo-vital-sin-slogan.svg" alt="Vital">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_sup">
+            <img src="logotipo/logotipo.svg" alt="MyM Servicios Ambientales">
+            <div class="datos_marca_footer">
+                <div class="nombre">MyM</div>
+                <div class="subnombre">Servicios Ambientales</div>
+            </div>
+            <!-- <div class="redes">
+                <div class="redes_ws">
+                    <a href="#"><img src="iconos/ico ws.svg" alt="Whatsapp"></a>
+                </div>
+                <div class="redes_ig">
+                    <a href="#"><img src="iconos/ico ig.svg" alt="Instagram"></a>
+                </div>
+                <div class="redes_fs">
+                    <a href="#"><img src="iconos/ico face.svg" alt="Facebook"></a>
+                </div>
+            </div> -->
+        </div>
+        <div class="footer_inf" style="display: none;">
+            <div class="colaboracion">
+                Con la colaboración de
+            </div>
+            <div class="contenedor_la_victoria">
+                <div class="logo_la_victoria">
+                    <img src="logotipo/logo_la_victoria.svg" alt="">
+                </div>
+                <div class="marca_la_victoria">
+                    La Victoria
+                </div>
+            </div>
+            <div class="contenedor_deysa">
+                <div class="logo_deysa">
+                    <img src="logotipo/logo_deysa.svg" alt="">
+                </div>
+                <div class="marca_deysa">
+                    Deysa
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

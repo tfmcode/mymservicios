@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <style>
+        
+        .icon-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+      width: 400px;
+      height: 200px;
+    }
+
+    .icon-box:hover {
+      box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+      border: 1px solid #ff5500; /* Cambia el color del borde al hacer hover */
+    }
+
+    .icon-box img {
+      margin-bottom: 20px;
+    }
+
+    .icon-box h4 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      text-decoration: none; /* Quita el subrayado del título */
+      cursor: pointer; /* Cambia el cursor al pasar sobre el título */
+    }
+
+
+    .icon-box p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 0;
+      text-align: center; /* Centra el párrafo */
+    }
+    .title{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#servicios" class="scrollLink">Servicios</a></li>
+                    <li><a href="./trabajos.html">Trabajos</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="inicio" class="cabecera">
+            <div class="cabecera-izquierda">
+                <div class="logotipo">
+                    <img src="logotipo/logotipo.svg" alt="MyM Servicios Ambientales">
+                    <div class="datos_marca">
+                        <div class="nombre">MyM</div>
+                        <div class="subnombre">Destapaciones sanitarias</div>
+                    </div>
+                </div>
+                <div class="titulo">
+                    Destapaciones de cañerías. <br> Despejando el camino hacia un flujo sin obstrucciones.
+                </div>
+                <div class="boton">
+                    <button class="btn_principal" onclick="enviarMensaje()">Contacto</button>
+                </div>
+            </div>
+            <div class="cabecera-derecha">
+                <img style="border-radius: 26px;" src="img/Portada.JPG" alt="">
+            </div>
+        </div>
+    <div class="nuestros_servicios espacio_arriba_10">
+
+
+        <div class="nuestros_servicios_celda">
+            <div class="titulo_segundo_nivel espacio_abajo_5">Nuestros servicios</div>
+            <div class="parrafo_con_logo">
+                <img src="logotipo/logotipo.svg" alt="">
+                <div class="parrafo espacio_izquierdo_10 espacio_derecho_10 ">Nuestra empresa de destapaciones
+                    ofrece un amplio espectro de servicios para asegurar el óptimo funcionamiento de sistemas de
+                    saneamiento. Realizamos destapaciones y desagotes con tecnología de diagnóstico por imágenes,
+                    garantizando eficacia y precisión. Además, gestionamos residuos peligrosos con certificación de
+                    deposición final y proporcionamos mantenimiento preventivo para prevenir obstrucciones en
+                    cañerías.</div>
+            </div>
+        </div>
+
+
+        <div class="nuestros_servicios_celda espacio_interno_10">
+            <div class="titulo_tercer_nivel espacio_abajo_5">Camiones atmosféricos</div>
+            <div class="parrafo espacio_derecho_10 texto_blanco">·Desagote de cámaras decantadoras de
+                grasa.<br>·Cámaras de barro.<br>·Bombas de achique.<br>·Retiro de distintos tipos de residuos
+                peligrosos con certificado de deposición final.</div>
+        </div>
+        <div class="nuestros_servicios_celda espacio_interno_10">
+            <div class="titulo_tercer_nivel espacio_abajo_5">Destapaciones</div>
+            <div class="parrafo espacio_derecho_10 texto_blanco">Destapaciones mecanizadas con tres tipos de
+                maquinaria, resortes de 32mm. 22mm. y 16mm.<br>Destapaciones hidro-cinéticas por alta presión de
+                agua de 150bar. que no daña la cañería y la limpia.</div>
+        </div>
+        <div class="nuestros_servicios_celda espacio_interno_10">
+            <div class="titulo_tercer_nivel espacio_abajo_5">Arquitectura</div>
+            <div class="parrafo espacio_derecho_10 texto_blanco">Contamos con un equipo de arquitectos para la
+                realización de cámaras, cambios de cañerías o cambios estructurales.</div>
+        </div>
+        <div class="nuestros_servicios_celda espacio_interno_10">
+            <div class="titulo_tercer_nivel espacio_abajo_5">Video inspección</div>
+            <div class="parrafo espacio_derecho_10 texto_blanco">Inspección por imágenes en todo tipo de cañerías y
+                encamisados, para resolver y constatar roturas.</div>
+        </div>
+        <div class="nuestros_servicios_celda espacio_interno_10">
+            <div class="titulo_tercer_nivel espacio_abajo_5">Hidrolavado</div>
+            <div class="parrafo espacio_derecho_10 texto_blanco">De alta presión en cámaras con ingreso de personal.
+            </div>
+        </div>
+    </div>
+    <section class="services">
+        <div class="container">
+          <div style="display: flex; flex-direction: column; align-items: center; padding-bottom: 20px;">
+            <p class="text-primary" style="letter-spacing: 0.3em; color: #0D6EFD;">NUESTRO DIFERENCIAL</p>
+  
+            <h1 class="title1">PRESTAMOS SERVICIO PREMIUM</h1>
+            <p style="text-align: center;">Nuestra empresa de destapaciones ofrece un amplio espectro de servicios para asegurar el óptimo funcionamiento de sistemas de saneamiento. Realizamos destapaciones y desagotes con tecnología de diagnóstico por imágenes, garantizando eficacia y precisión. Además, gestionamos residuos peligrosos con certificación de deposición final y proporcionamos mantenimiento preventivo para prevenir obstrucciones en cañerías.</p>
+          </div>
+          <div class="row">
+            <div class="cards" style="display: flex;
+          justify-content: space-evenly; margin-top: 20px;
+      margin-bottom: 20px;">
+  
+  
+              <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box icon-box-blue">
+                  <div><img src="../assets/img/certificaciones.png" width="70"></div>
+                  <h4 class="title" style="text-decoration: none;"><a href="">Arquitectura</a></h4>
+                  <p class="description">Contamos con un equipo de arquitectos para la realización de cámaras, cambios de cañerías o cambios estructurales.</p>
+                </div>
+              </div>
+  
+              <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box icon-box-green">
+                  <div><img src="../assets/img/expertos.png" width="70"></div>
+                  <h4 class="title"><a href="">Destapaciones</a></h4>
+                  <p class="description">Destapaciones mecanizadas con tres tipos de maquinaria, resortes de 32mm. 22mm. y 16mm.
+                    Destapaciones hidro-cinéticas por alta presión de agua de 150bar. que no daña la cañería y la limpia.</p>
+  
+                </div>
+              </div>
+            </div>
+            <div class="cards" style="display: flex;
+         justify-content: space-evenly; margin-top: 20px;
+      margin-bottom: 20px;">
+  
+              <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up">
+                <div class="icon-box icon-box-pink">
+                  <div><img src="../assets/img/seguridad.png" width="70"></div>
+                  <h4 class="title"><a href="">Hidrolavado</a></h4>
+                  <p class="description">De alta presión en cámaras con ingreso de personal.</p>
+                </div>
+              </div>
+  
+              <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-box icon-box-cyan">
+                  <div><img src="../assets/img/tecnologias.png" width="70"></div>
+                  <h4 class="title"><a href="">Video inspección</a></h4>
+                  <p class="description">Inspección por imágenes en todo tipo de cañerías y encamisados, para resolver y constatar roturas.</p>
+  
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Services Section -->
+    <div class="footer">
+        <div class="footer_sup">
+            <img src="logotipo/logotipo.svg" alt="MyM Servicios Ambientales">
+            <div class="datos_marca_footer">
+                <div class="nombre">MyM</div>
+                <div class="subnombre">Servicios Ambientales</div>
+            </div>
+            <!-- <div class="redes">
+                <div class="redes_ws">
+                    <a href="#"><img src="iconos/ico ws.svg" alt="Whatsapp"></a>
+                </div>
+                <div class="redes_ig">
+                    <a href="#"><img src="iconos/ico ig.svg" alt="Instagram"></a>
+                </div>
+                <div class="redes_fs">
+                    <a href="#"><img src="iconos/ico face.svg" alt="Facebook"></a>
+                </div>
+            </div> -->
+        </div>
+        <div class="footer_inf" style="display: none;">
+            <div class="colaboracion">
+                Con la colaboración de
+            </div>
+            <div class="contenedor_la_victoria">
+                <div class="logo_la_victoria">
+                    <img src="logotipo/logo_la_victoria.svg" alt="">
+                </div>
+                <div class="marca_la_victoria">
+                    La Victoria
+                </div>
+            </div>
+            <div class="contenedor_deysa">
+                <div class="logo_deysa">
+                    <img src="logotipo/logo_deysa.svg" alt="">
+                </div>
+                <div class="marca_deysa">
+                    Deysa
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
